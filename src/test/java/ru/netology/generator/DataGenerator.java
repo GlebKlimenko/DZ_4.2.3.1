@@ -14,8 +14,8 @@ import java.util.Random;
 
         public static String cityForInput() {
             Random random = new Random();
-            int rand = random.nextInt(12);
-            String city[] = {"Екатеринбург", "Москва", "Калининград", "Кемерово", "Тверь", "Кострома", "Краснодар",
+            int rand = random.nextInt(11);
+            String city [] = {"Екатеринбург", "Москва", "Калининград", "Кемерово", "Тверь", "Кострома", "Краснодар",
                     "Красноярск", "Курск", "Санкт-Петербург", "Чебоксары"};
             return city[rand];
         }
@@ -38,7 +38,7 @@ import java.util.Random;
 
         public static String cityNoVal() {
             Random random = new Random();
-            int rand = random.nextInt(8);
+            int rand = random.nextInt(7);
             String cityNoVal[] = {"Мегион", "Кизляр", "Урус-Мартан", "Снежинск", "Кингисепп", "Заринск", "Курганинск"};
             return cityNoVal[rand];
         }
